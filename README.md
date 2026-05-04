@@ -95,13 +95,3 @@ Piso procedural de **azulejos sci-fi** (tileable, com rejunte + chanfro + varia�
 | Garrafa | Ao lado da cama |
 | Lixeira | Próxima à mesa de trabalho |
 
-## Restrições atendidas
-
-- Apenas pipeline moderno (`glVertexAttribPointer`, `glDrawArrays`, etc.)
-- Sem efeitos de iluminação (PDF proíbe nesta entrega)
-- 6+ modelos exclusivos com textura
-- 3 modelos com transformação por teclado (rover / satélite / planeta)
-- SkyBox cubemap
-- Pisos distintos: externo (Marte texturizado com relevo) e interno (azulejos procedurais)
-- Câmera limitada às bordas do mundo (clamping) e ao relevo do terreno
-- Wireframe toggle em `P`
