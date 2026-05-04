@@ -1,5 +1,8 @@
 # Projeto 2 — Computação Gráfica (SCC0250)
 
+João Pedro Alves Notari Godoy - 14582076
+Letícia Barbosa Neves - 14588659
+
 Cenário 3D **"Base Científica em Marte"**, em Python + PyOpenGL (pipeline moderno).
 
 ## Como executar
