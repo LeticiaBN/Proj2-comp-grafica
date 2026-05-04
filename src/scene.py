@@ -3,21 +3,27 @@
 Layout (vista de cima, X→leste, Z→sul, Y→cima):
 
   z=-100 ────────────────────────────────── z=+100
-   .                                        .
-   .       . .                              .
-   .   sphere  connector  SCIENCEBASE       .
-   .   (-37)   (-18.7)    (0,0,0)           .
-   .                                        .
-   .              (interior tem cama,       .
-   .               desk, robot, baby yoda,  .
-   .               storage_box, neon)       .
-   .                                        .
-   .   nave (orbita raio 50 em volta)       .
-   .   rover  (15, 0, 15) — móvel          .
-   .   satelite (-15, 0, 25) — gira         .
-   .   planeta (150, 80, -150) — ao fundo  .
+   .  mtn(-62,-52)                mtn(58,-65) .
+   .                                          .
+   .   sphere  connector  SCIENCEBASE         .
+   .   (-37)   (-18.7)    (0,0,0)             .
+   .              (interior: cama 5 partes,   .
+   .               matress, desk, robot,      .
+   .               babyyoda, storage_box,     .
+   .               neon, bottle, trash)       .
+   .                                          .
+   .   supply_box(-22,5)  cart_ext(20,10)     .
+   .   satelite(-15,25)   rover(15,15) — móv  .
+   .                                          .
+   .  mtn(-48,62)                mtn(68,42)   .
+   .                                          .
+   .   nave (orbita raio 55, altura 35)       .
+   .   planeta (120, 70, -150) — ao fundo     .
+   .   skybox (cubemap nebulosa/espaço)       .
 
-Tudo apoiado em piso de Marte (plano 200x200).
+Tudo apoiado em piso de Marte com relevo senoidal (200×200).
+Piso interno: disco procedural de azulejos sci-fi (raio 10.4).
+4 montanhas cônicas nos quadrantes: (-62,-52) (58,-65) (68,42) (-48,62).
 """
 import math
 from pathlib import Path
